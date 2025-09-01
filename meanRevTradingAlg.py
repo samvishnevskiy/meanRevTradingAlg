@@ -75,5 +75,5 @@ returns = 0;
 for i in range(0, len(stocks)):
     returns += ma2(stocks[i])
 
-print("\nThe average return of the trading alogirthm across selected stocks from 08/01/2024 to 08/01/2025 is: " + str(returns/len(stocks)))
+print("\nThe average return of the trading algorithm across selected stocks from 08/01/2024 to 08/01/2025 is: " + str(returns/len(stocks)))
 print("In the same time period, the SPY return is: " + str((100000/spyPrices.iloc[0]* spyPrices.iloc[-1]) -100000))  
